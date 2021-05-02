@@ -1,0 +1,13 @@
+---
+---
+@import "minima";
+
+pre,
+code {
+  background-color: initial;
+}
+
+.site-header {
+  border-top: 5px solid $background-color !important;
+  border-bottom: 1px solid $background-color !important;
+}
