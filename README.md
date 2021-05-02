@@ -48,6 +48,9 @@ The [`_config.yml`](./_config.yml) file in the root of the repository is used to
 and also provide data to be used globally across the site (title, description, base href, domain
 name, etc).
 
+It's important to set the base href (`baseurl`) when hosting the site on a path (like this GitHub
+repo).
+
 Any plugins you want to run at build time would be listed in this file, as well as your theme (if
 any).
 
@@ -58,6 +61,9 @@ You can read the Jekyll configuration docs [here](https://jekyllrb.com/docs/conf
 Jekyll uses Shopify's [Liquid](https://shopify.github.io/liquid) templating language, which is
 similar to Jinja. It's worth mentioning that you can use Liquid templating in your Sass and
 CoffeeScript files as well.
+
+There's quite a few [additional filters](https://jekyllrb.com/docs/liquid/filters) provided by
+Jekyll in addition to the standard Liquid filters.
 
 ## CSS
 
